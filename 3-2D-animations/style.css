@@ -1,0 +1,34 @@
+/* scale, translate, rotate, skew */
+
+img {
+  border: 2px solid gray;
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+
+  transition: all 2s;
+}
+
+img:hover {
+  /* transform: translateX(500px); */
+  /* transform: translateY(500px); */
+  /* transform: translate(-500px, -200px); */
+
+  /* transform: scaleX(1.5); */
+  /* transform: scaleY(1.5); */
+  /* transform: scale(0.25); */
+
+  transform: rotate(60deg);
+  /* transform: rotate(1turn); */
+  /* NOTE: 1turn = 400grad */
+  /* transform: rotate(200grad); */
+
+  /* transform: skew(30deg); */
+  /* transform: skewY(30deg); */
+  /* transform: skew(20deg, 40deg); */
+
+  /* transform-origin: top; */
+  /* transform-origin: 30% 50%; */
+  transform-origin: 300px 120px;
+}
